@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../core/page_config.dart';
+import 'package:udemy_todo/2_application/core/page_config.dart';
 
 class TaskPage extends StatelessWidget {
   const TaskPage({super.key});

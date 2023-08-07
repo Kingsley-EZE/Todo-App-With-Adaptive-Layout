@@ -26,7 +26,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   final destinations = HomePage.tabs.map((page) =>
       NavigationDestination(icon: Icon(page.icon), label: page.name)).toList();
-  //int currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
